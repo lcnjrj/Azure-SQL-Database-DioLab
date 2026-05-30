@@ -4,9 +4,9 @@
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
 [![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server)
 
-Este repositório foi desenvolvido como parte de um laboratório prático com o objetivo de explorar, configurar e documentar uma instância de banco de dados relacional na plataforma **Microsoft Azure**. O conteúdo aqui presente serve como apoio para estudos de administração de infraestrutura em nuvem.
-
----
+Este repositório foi desenvolvido como parte de um laboratório prático com o objetivo de explorar, configurar e documentar uma instância de banco de dados relacional na plataforma **Microsoft Azure**.
+Estruturado a partir de um **único computador de estudos com recursos de hardware limitados, rodando uma distribuição Linux como sua estação de trabalho** para usar a base de dados relacional robusta e corporativa na nuvem Azure para suportar pequenos projetos, automações residenciais ou scripts locais de análise de dados.
+O conteúdo aqui presente serve como apoio para estudos de administração de infraestrutura em nuvem.
 
 ## Objetivos de Aprendizagem
 
