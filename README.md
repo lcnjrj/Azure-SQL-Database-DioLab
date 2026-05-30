@@ -82,3 +82,18 @@ Login de administrador: admin_linux (ou o usuário de sua preferência)
 Senha: Defina uma senha forte e segura.
 
 Clique em Salvar no topo da página.
+
+##  Etapa 5: Engenharia de Redes e Liberação de Firewall (Acesso Externo)
+Por padrão, o Azure SQL bloqueia qualquer tráfego externo por motivos de segurança. É obrigatório configurar o Firewall para liberar o tráfego da sua estação de trabalho (Lubuntu).
+
+No painel do seu Servidor Lógico, acesse a guia Segurança > Rede (Networking).
+
+Em Acesso à rede pública, altere de Desabilitado para Redes selecionadas (Selected networks).
+
+Na seção de regras de firewall, localize e clique na opção "Adicionar o IPv4 do cliente" (Add your client IPv4 address). A plataforma identificará automaticamente o IP público atual da sua conexão local.
+
+Marque a opção para permitir que serviços e recursos do Azure acessem este servidor (essencial para aplicações integradas na própria nuvem).
+
+Clique em Salvar na parte inferior e certifique-se de receber a notificação de sucesso.
+
+print
