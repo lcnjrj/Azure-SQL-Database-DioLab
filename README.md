@@ -107,12 +107,7 @@ Login de administrador: admin_linux (ou o usuário de minha preferência)
 Senha: Defini uma senha forte e segura.
 
 Cliquei em Salvar no topo da página.
-#
-![Terminal pendrive com Lubuntu 25.10](imagens/Print_2026_05_29_065056.png)
-#
-![Terminal pendrive com Lubuntu 25.10](imagens/Print_2026_05_29_065247.png)
-#
-![Terminal pendrive com Lubuntu 25.10](imagens/Print_2026_05_29_065226.png)
+
 
 ### Etapa 5: Engenharia de Redes e Liberação de Firewall (Acesso Externo)
 
@@ -158,7 +153,12 @@ sudo ACCEPT_EULA=Y apt-get install -y msodbcsql18 mssql-tools18
 echo 'export PATH="$PATH:/opt/mssql-tools18/bin"' >> ~/.bashrc
 source ~/.bashrc
 ```
-
+#
+![Terminal pendrive com Lubuntu 25.10](imagens/Print_2026_05_29_065056.png)
+#
+![Terminal pendrive com Lubuntu 25.10](imagens/Print_2026_05_29_065247.png)
+#
+![Terminal pendrive com Lubuntu 25.10](imagens/Print_2026_05_29_065226.png)
 ### Passo 2: Testar a Conexão Pelo Terminal Linux
 
 Com o firewall da Azure liberado para o meu IP e a ferramenta instalada localmente, executei o comando de conexão. Utilizei o parâmetro `-C` para confiar no certificado do servidor, exigido por padrão na versão 18 do `sqlcmd`:
