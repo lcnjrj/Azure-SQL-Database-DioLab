@@ -42,9 +42,9 @@ Minha principal finalidade ao utilizá-lo é permitir que eu **foque exclusivame
 
 **Segurança Avançada e Integrada:** Proteção em multicamadas que inclui criptografia nativa em repouso e em trânsito (TDE), mascaramento dinâmico de dados confidenciais (Dynamic Data Masking), isolamento de rede e detecção pró-ativa de ameaças ou acessos anômalos baseada em Inteligência Artificial.
 
-![Recomendações_01]([imagens/Print_Print_Todos_os_serviços___Microsoft_Azure___Google_Chrome_2_2026-05-30_135133.png](/imagens/Print_Azure_SQL___Microsoft_Azure___Google_Chrome_2026-05-29_053308.png))
+![Recomendações_01](/imagens/Print_Azure_SQL___Microsoft_Azure___Google_Chrome_2026-05-29_053308.png)
 #
-![Recomendações_02]([imagens/Print_Print_Todos_os_serviços___Microsoft_Azure___Google_Chrome_2_2026-05-30_135133.png](/imagens/Print_Azure_SQL___Microsoft_Azure___Google_Chrome_2026-05-29_053348.png))
+![Recomendações_02](/imagens/Print_Azure_SQL___Microsoft_Azure___Google_Chrome_2026-05-29_053348.png)
 
 
 
