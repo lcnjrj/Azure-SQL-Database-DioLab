@@ -57,7 +57,6 @@ Minha principal finalidade ao utilizá-lo é permitir que eu **foque exclusivame
 No menu lateral ou na barra de pesquisas do Portal do Azure, busquei por Azure SQL.
 
 
-
 Cliquei em Criar e selecionei a opção SQL Databases. Em tipo de recurso, optei por Single Database (Banco de dados único).
 
 ### Etapa 2: Definição de Escopo e Infraestrutura básica
@@ -79,12 +78,12 @@ Configurei os limites máximo e mínimo de vCores conforme meu cenário de teste
 
 Essencial: Ativei a caixa de Pausa Automática (Auto-pause delay) e configurei o tempo de espera (ex: 1 mês, para ficar de acordo com a promoção) para evitar cobranças indesejadas enquanto o banco estiver ocioso.
 
-![Configuração de vCores](imagens/Print_Print_SQL_diolab_test__diolab_sql_servidor_SQL_diolab_test___2026-05-30_140439.png)
-
 ![Comportamento de Pausa Automática](imagens/Print_Print_Criar_Banco_de_Dados_SQL___Microsoft_Azure___Google_Ch_2026-05-30_140417.png)
-
+#
 ![Resumo de Custos e Uso Gratuito](imagens/Print_Print_Criar_Banco_de_Dados_SQL___Microsoft_Azure___Google_Ch_2026-05-30_135110.png)
-
+#
+![Configuração de vCores](imagens/Print_Print_SQL_diolab_test__diolab_sql_servidor_SQL_diolab_test___2026-05-30_140439.png)
+#
 ### Etapa 4: Configuração da Identidade e Autenticação Nativa para Linux
 
 Como utilizo ambientes Linux, preciso de conexões diretas e eficientes via ferramentas de linha de comando. A autenticação mista garante estabilidade máxima para meu cenário.
