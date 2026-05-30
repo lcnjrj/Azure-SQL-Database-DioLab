@@ -110,9 +110,9 @@ Cliquei em Salvar no topo da página.
 #
 ![Terminal pendrive com Lubuntu 25.10](imagens/Print_2026_05_29_065056.png)
 #
-![Terminal pendrive com Lubuntu 25.10](imagens/Print_2026_05_29_065226.png)
-#
 ![Terminal pendrive com Lubuntu 25.10](imagens/Print_2026_05_29_065247.png)
+#
+![Terminal pendrive com Lubuntu 25.10](imagens/Print_2026_05_29_065226.png)
 
 ### Etapa 5: Engenharia de Redes e Liberação de Firewall (Acesso Externo)
 
