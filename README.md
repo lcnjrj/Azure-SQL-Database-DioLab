@@ -2,7 +2,7 @@
 
 Desenvolvi este repositório como parte de um laboratório prático com o objetivo de explorar, configurar e documentar uma instância de banco de dados relacional na plataforma **Microsoft Azure**.
 
-Estruturei este projeto a partir de um **único computador de estudos com recursos de hardware limitados, rodando uma distribuição Linux como minha estação de trabalho**, para utilizar a base de dados relacional robusta e corporativa na nuvem Azure, suportando meus pequenos projetos, automações residenciais ou scripts locais de análise de dados.
+Estruturei este projeto a partir de um **único computador de estudos com recursos de hardware limitados, rodando uma distribuição Linux rodando de uma pendrive como minha estação de trabalho**, para utilizar a base de dados relacional robusta e corporativa na nuvem Azure, suportando meus pequenos projetos, automações residenciais ou scripts locais de análise de dados.
 O conteúdo que apresento aqui serve como apoio para meus estudos de administração de infraestrutura em nuvem.
 
 ## Objetivos de Aprendizagem
@@ -237,6 +237,8 @@ Verificação de Custos: Monitorei a aba Cost Management + Billing no portal par
 Pausa em Ação: Notei que o banco de dados pode demorar alguns segundos extras para responder na primeira query após um período de pausa automática. Entendi que esse é o comportamento esperado, pois a infraestrutura está saindo do estado de suspensão física.
 
 Mudança de IP: Como minhas conexões de internet residenciais costumam ter IPs dinâmicos, caso receba um erro de conexão do terminal no futuro, basta retornar à aba de Rede do Servidor Lógico na Azure e atualizar o IP do cliente.
+![Monitoramento de Uso](/imagens/custos.png)
+
 
 ## Considerações Finais e Aprendizados
 
