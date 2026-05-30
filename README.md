@@ -205,6 +205,18 @@ Certifiquei-me de colocar a senha entre aspas simples (' ') para que o shell Lin
 
 print
 
+---
+
+## Implementação do Banco de Dados e conexão com códigos Python
+
+### 1. Criação da Estrutura no Banco de Dados
+Utilizando o `sqlcmd` diretamente do meu terminal Linux, conectei à instância do Azure SQL e executei os scripts de definição de dados (DDL) para criar as tabelas necessárias para os meus projetos de automação. Com isso, estruturei o esquema relacional garantindo tipos de dados otimizados e chaves primárias para integridade das informações.
+
+### 2. Conexão e Validação com o Código Python
+Com a estrutura pronta na nuvem e a string de conexão ODBC mapeada, executei o meu script Python local. O código foi capaz de autenticar com segurança, abrir a sessão, realizar operações de inserção (DML) e ler os dados de volta para a minha estação de trabalho. 
+
+---
+
 ## Operação e Custos
 
 Verificação de Custos: Monitorei a aba Cost Management + Billing no portal para entender o comportamento de consumo da camada Serverless.
@@ -212,3 +224,16 @@ Verificação de Custos: Monitorei a aba Cost Management + Billing no portal par
 Pausa em Ação: Notei que o banco de dados pode demorar alguns segundos extras para responder na primeira query após um período de pausa automática. Entendi que esse é o comportamento esperado, pois a infraestrutura está saindo do estado de suspensão física.
 
 Mudança de IP: Como minhas conexões de internet residenciais costumam ter IPs dinâmicos, caso receba um erro de conexão do terminal no futuro, basta retornar à aba de Rede do Servidor Lógico na Azure e atualizar o IP do cliente.
+
+## Considerações Finais e Aprendizados
+
+Este laboratório foi um marco importante para consolidar meus conhecimentos em infraestrutura de dados na nuvem. Ao finalizar este desafio, consegui:
+
+* **Superar Restrições de Hardware:** Provei que não preciso de uma máquina robusta localmente para trabalhar com ferramentas corporativas de ponta, utilizando o modelo PaaS Serverless a meu favor.
+* **Dominar o Ecossistema CLI no Linux:** Reforcei minha habilidade de gerenciar recursos em nuvem e bancos de dados sem depender de interfaces gráficas, focando em performance e automação via **shell**.
+
+Este repositório agora serve como o meu guia oficial de consultas para futuras implementações envolvendo o ecossistema Azure e arquiteturas leves de microsserviços.
+
+---
+
+**Desenvolvido por Luciana J de Faria**
