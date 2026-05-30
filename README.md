@@ -149,7 +149,7 @@ Se o prompt do meu terminal mudou instantaneamente para:
 
 ```
 
-A conexão foi um sucesso absoluto! O banco de dados está pronto para receber instruções DDL e DML diretamente da linha de comando, sem nenhuma interface gráfica pesada rodando em background.
+A conexão funcionou. O banco de dados está pronto para receber instruções DDL e DML diretamente da linha de comando, sem interface gráfica pesada rodando em background.
 
 ### Passo 3: Preparar a Integração com Código (Python / Python-ODBC)
 
@@ -183,7 +183,7 @@ print("Conexão com Azure SQL via Python executada com sucesso!")
 
 ```
 
-Esse fluxo de ponta a ponta mantém meu ambiente de desenvolvimento ágil, focado na velocidade do terminal e integrado diretamente às minhas ferramentas de código e automação.
+Esse fluxo de ponta a ponta mantém meu ambiente ágil, focado na velocidade do terminal e integrado diretamente às minhas ferramentas de código e automação.
 
 ---
 
