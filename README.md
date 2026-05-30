@@ -98,7 +98,7 @@ Clique em Salvar na parte inferior e certifique-se de receber a notificação de
 
 print
 
-## 6.  Conectando ao Azure SQL via Terminal Linux (Lubuntu)
+## Etapa 6: Conectando ao Azure SQL via Terminal Linux (Lubuntu)
 Com o servidor devidamente configurado e o Firewall liberado para o seu IP local, abra o terminal do seu ambiente Linux (LXQt/Lubuntu) para realizar os testes de conexão utilizando ferramentas nativas de CLI como o sqlcmd.
 
 Como habilitamos o suporte à autenticação mista, não utilizaremos o parâmetro -G (voltado para o Active Directory/Entra ID). Faremos o acesso direto com o usuário administrador SQL criado.
@@ -113,7 +113,7 @@ Certifique-se de colocar a senha entre aspas simples (' ') se ela contiver carac
 
 print
 
-## 7 Operação e Custos
+## Etapa 7: Operação e Custos
 Verificação de Custos: Sempre monitore a aba Cost Management + Billing no portal para entender o comportamento de consumo da camada Serverless.
 
 Pausa em Ação: O banco de dados pode demorar alguns segundos extras para responder na primeira query após um período de pausa automática. Isso é o comportamento esperado, pois a infraestrutura está saindo do estado de suspensão física.
