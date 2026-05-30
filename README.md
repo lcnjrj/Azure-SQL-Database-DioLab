@@ -24,7 +24,7 @@ Este repositório foi desenvolvido como parte de um laboratório prático com o 
 ├── images/               # Capturas de tela das etapas de configuração no portal Azure
 ├── README.md             # Documentação principal e guia de estudos do laboratório
 
-
+```
 ## Arquitetura e Configuração do Azure SQL
 O ambiente de dados moderno exige flexibilidade, resiliência e segurança. Abaixo estão documentados os fundamentos teóricos e o passo a passo operacional para provisionamento e consumo do Azure SQL Database.
 
