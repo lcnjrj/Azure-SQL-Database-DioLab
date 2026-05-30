@@ -107,6 +107,7 @@ print
 
 ## Configuração do Ambiente Local e Conectividade (CLI-First)
 
+
 Com tudo configurado na nuvem, o próximo passo foi preparar minha estação de trabalho Linux para gerenciar o banco de dados e integrar com meu ambiente de desenvolvimento.
 
 ### Passo 1: Instalar o Utilitário de Linha de Comando no Linux (Testado no Lubuntu 25.10)
@@ -132,6 +133,60 @@ source ~/.bashrc
 
 ```
 
+### Passo 2: Testar a Conexão Pelo Terminal Linux
+
+Com o firewall da Azure liberado para o meu IP e a ferramenta instalada localmente, executei o comando de conexão. Utilizei o parâmetro `-C` para confiar no certificado do servidor, exigido por padrão na versão 18 do `sqlcmd`:
+
+```bash
+sqlcmd -S diolab-sql-servidor.database.windows.net -d SQL-diolab-test -U admin_linux -P 'SuaSenhaForteAqui' -C
+
+```
+
+Se o prompt do meu terminal mudou instantaneamente para:
+
+```text
+1>
+
+```
+
+A conexão foi um sucesso absoluto! O banco de dados está pronto para receber instruções DDL e DML diretamente da linha de comando, sem nenhuma interface gráfica pesada rodando em background.
+
+### Passo 3: Preparar a Integração com Código (Python / Python-ODBC)
+
+Para que meus scripts locais de automação ou APIs em Python consigam ler e gravar dados na nuvem de forma leve, mapeei a string de conexão correta.
+
+1. No Portal Azure, acessei a página de Visão Geral do meu Banco de Dados específico (SQL-diolab-test).
+2. No menu lateral esquerdo, localizei a seção **Configurações** e cliquei em **Cadeias de conexão (Connection strings)**.
+3. Selecionei a aba **ODBC**. Esta é a string ideal para ser copiada e utilizada em scripts Python através da biblioteca `pyodbc`.
+
+*Exemplo de estrutura base para o meu script Python:*
+
+```python
+import pyodbc
+
+# String de conexão obtida no portal (adaptada para o driver Linux)
+conn_str = (
+    "Driver={ODBC Driver 18 for SQL Server};"
+    "Server=tcp:diolab-sql-servidor.database.windows.net,1433;"
+    "Database=SQL-diolab-test;"
+    "Uid=admin_linux;"
+    "Pwd={SuaSenhaForteAqui};"
+    "Encrypt=yes;"
+    "TrustServerCertificate=no;"
+    "Connection Timeout=30;"
+)
+
+# Teste de conexão local leve
+conn = pyodbc.connect(conn_str)
+cursor = conn.cursor()
+print("Conexão com Azure SQL via Python executada com sucesso!")
+
+```
+
+Esse fluxo de ponta a ponta mantém meu ambiente de desenvolvimento ágil, focado na velocidade do terminal e integrado diretamente às minhas ferramentas de código e automação.
+
+---
+
 ## Conectando ao Azure SQL via Terminal Linux (Lubuntu)
 
 Com o servidor configurado e o Firewall liberado para o meu IP, utilizei o terminal do Linux (LXQt/Lubuntu) para realizar os testes de conexão utilizando ferramentas nativas de CLI como o `sqlcmd`.
@@ -150,7 +205,7 @@ Certifiquei-me de colocar a senha entre aspas simples (' ') para que o shell Lin
 
 print
 
-## Etapa 8: Operação e Custos
+## Operação e Custos
 
 Verificação de Custos: Monitorei a aba Cost Management + Billing no portal para entender o comportamento de consumo da camada Serverless.
 
