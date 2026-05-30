@@ -67,3 +67,18 @@ Configure os limites máximo e mínimo de vCores conforme seu cenário de testes
 Essencial: Ative a caixa de Pausa Automática (Auto-pause delay) e configure o tempo de espera (ex: 1 mês, para ficar de acordo com a promoção) para evitar cobranças indesejadas enquanto o banco estiver ocioso.
 
 print
+
+## Etapa 4: Configuração da Identidade e Autenticação Nativa para Linux
+Ambientes Linux corporativos exigem conexões diretas e eficientes via ferramentas de linha de comando. A autenticação mista garante estabilidade máxima para este cenário.
+
+No menu de criação ou acessando a página do Servidor Lógico criado, localize o menu lateral Segurança > Autenticação (ou Microsoft Entra ID).
+
+Modifique a configuração de autenticação para: "Suporte para autenticação do SQL e do Microsoft Entra" (Use both SQL and Microsoft Entra authentication).
+
+Defina as credenciais do administrador nativo do banco de dados:
+
+Login de administrador: admin_linux (ou o usuário de sua preferência)
+
+Senha: Defina uma senha forte e segura.
+
+Clique em Salvar no topo da página.
