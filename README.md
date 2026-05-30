@@ -245,7 +245,8 @@ Verificação de Custos: Monitorei a aba Cost Management + Billing no portal par
 Pausa em Ação: Notei que o banco de dados pode demorar alguns segundos extras para responder na primeira query após um período de pausa automática. Entendi que esse é o comportamento esperado, pois a infraestrutura está saindo do estado de suspensão física.
 
 Mudança de IP: Como minhas conexões de internet residenciais costumam ter IPs dinâmicos, caso receba um erro de conexão do terminal no futuro, basta retornar à aba de Rede do Servidor Lógico na Azure e atualizar o IP do cliente.
-![Monitoramento de Uso](/imagens/custos.png)
+#
+![Monitoramento de Uso](/imagens/Print_custos.png)
 
 
 ## Considerações Finais e Aprendizados
