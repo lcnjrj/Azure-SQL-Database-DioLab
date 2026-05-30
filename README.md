@@ -84,6 +84,14 @@ Essencial: Ativei a caixa de Pausa Automática (Auto-pause delay) e configurei o
 #
 ![Configuração de vCores](imagens/Print_Print_SQL_diolab_test__diolab_sql_servidor_SQL_diolab_test___2026-05-30_140439.png)
 #
+![Autenticação do Microsoft Entra](imagens/Print_Print_Criar_Banco_de_Dados_SQL___Microsoft_Azure___Google_Ch_2026-05-30_135058.png)
+#
+![Configuração de Rede e Servidor](imagens/Print_Print_diolab_sql_servidor___Microsoft_Azure___Google_Chrome__2026-05-30_134856.png)
+#
+![Implantação Concluída](imagens/Print_Print_Microsoft_SQLDatabase_newDatabaseNewServer_36e1df7ca2a_2026-05-30_134916.png)
+#
+![Propriedades Gerais do Banco de Dados](imagens/Print_Print_SQL_diolab_test__diolab_sql_servidor_SQL_diolab_test___2026-05-30_140359.png)
+
 ### Etapa 4: Configuração da Identidade e Autenticação Nativa para Linux
 
 Como utilizo ambientes Linux, preciso de conexões diretas e eficientes via ferramentas de linha de comando. A autenticação mista garante estabilidade máxima para meu cenário.
@@ -100,7 +108,6 @@ Senha: Defini uma senha forte e segura.
 
 Cliquei em Salvar no topo da página.
 
-![Autenticação do Microsoft Entra](imagens/Print_Print_Criar_Banco_de_Dados_SQL___Microsoft_Azure___Google_Ch_2026-05-30_135058.png)
 
 ### Etapa 5: Engenharia de Redes e Liberação de Firewall (Acesso Externo)
 
@@ -116,9 +123,7 @@ Marquei a opção para permitir que serviços e recursos do Azure acessem este s
 
 Cliquei em Salvar na parte inferior e confirmei o sucesso da operação.
 
-![Configuração de Rede e Servidor](imagens/Print_Print_diolab_sql_servidor___Microsoft_Azure___Google_Chrome__2026-05-30_134856.png)
 
-![Implantação Concluída](imagens/Print_Print_Microsoft_SQLDatabase_newDatabaseNewServer_36e1df7ca2a_2026-05-30_134916.png)
 
 ---
 
@@ -215,7 +220,6 @@ sqlcmd -S diolab-sql-servidor.database.windows.net -d [NOME_DO_SEU_BANCO] -U adm
 
 Certifiquei-me de colocar a senha entre aspas simples (' ') para que o shell Linux não interpretasse os símbolos de forma incorreta.
 
-![Propriedades Gerais do Banco de Dados](imagens/Print_Print_SQL_diolab_test__diolab_sql_servidor_SQL_diolab_test___2026-05-30_140359.png)
 
 ---
 
