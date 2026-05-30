@@ -31,16 +31,16 @@ O ambiente de dados moderno exige flexibilidade, resiliência e segurança. Abai
 ## 1. O que é o Azure SQL e sua Finalidade
 O Azure SQL é uma família de produtos de banco de dados relacionais em nuvem baseados no mecanismo de alta performance do Microsoft SQL Server. Classificado estritamente na categoria de PaaS (Plataforma como Serviço), ele foi desenhado para eliminar a complexidade da gestão de infraestrutura física e de sistemas operacionais.
 
-Sua principal finalidade é permitir que Engenheiros de Software, Administradores de Banco de Dados (DBAs) e Profissionais de Infraestrutura foquem exclusivamente no valor de negócio: modelagem de dados, otimização de queries, indexação e lógica de negócios, delegando rotinas complexas de hardware, patch e rede à Microsoft.
+Sua principal finalidade é permitir que Engenheiros de Software, Administradores de Banco de Dados (DBAs) e Profissionais de Infraestrutura **foquem exclusivamente no valor de negócio**: modelagem de dados, otimização de queries, indexação e lógica de negócios, delegando rotinas complexas de hardware, patch e rede à Microsoft.
 
 ## 2. Vantagens Estruturais do Modelo PaaS
-*Gerenciamento Automatizado:* Rotinas críticas como backups (com retenção customizável), atualizações do engine do SQL Server e aplicação de patches de segurança ocorrem de forma transparente e sem downtime.
+**Gerenciamento Automatizado:** Rotinas críticas como backups (com retenção customizável), atualizações do engine do SQL Server e aplicação de patches de segurança ocorrem de forma transparente e sem downtime.
 
-*Escalabilidade Elástica:* Capacidade de escalar recursos de computação (vCores) e armazenamento sob demanda para suportar picos de carga de trabalho, retornando ao estado inicial sem interrupção dos serviços.
+**Escalabilidade Elástica:8** Capacidade de escalar recursos de computação (vCores) e armazenamento sob demanda para suportar picos de carga de trabalho, retornando ao estado inicial sem interrupção dos serviços.
 
-*Camada Serverless:* Abordagem altamente eficiente em custos onde os recursos computacionais são faturados estritamente por segundo de uso ativo. Inclui o recurso de Pausa Automática, que suspende o banco de dados durante períodos de inatividade definidos pelo administrador.
+**Camada Serverless:** Abordagem altamente eficiente em custos onde os recursos computacionais são faturados estritamente por segundo de uso ativo. Inclui o recurso de Pausa Automática, que suspende o banco de dados durante períodos de inatividade definidos pelo administrador.
 
-*Segurança Avançada e Integrada:* Proteção em multicamadas que inclui criptografia nativa em repouso e em trânsito (TDE), mascaramento dinâmico de dados confidenciais (Dynamic Data Masking), isolamento de rede e detecção pró-ativa de ameaças ou acessos anômalos baseada em Inteligência Artificial.
+**Segurança Avançada e Integrada:** Proteção em multicamadas que inclui criptografia nativa em repouso e em trânsito (TDE), mascaramento dinâmico de dados confidenciais (Dynamic Data Masking), isolamento de rede e detecção pró-ativa de ameaças ou acessos anômalos baseada em Inteligência Artificial.
 
 ## Passo a Passo para Configuração no Portal Azure
 Etapa 1: Provisionamento do Recurso
