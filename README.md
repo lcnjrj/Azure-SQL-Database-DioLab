@@ -2,7 +2,7 @@
 
 Desenvolvi este repositório como parte de um laboratório prático com o objetivo de explorar, configurar e documentar uma instância de banco de dados relacional na plataforma **Microsoft Azure**.
 
-Estruturei este projeto a partir de um **único computador de estudos com recursos de hardware limitados, rodando uma distribuição Linux rodando de uma pendrive como minha estação de trabalho**, para utilizar a base de dados relacional robusta e corporativa na nuvem Azure, suportando meus pequenos projetos, automações residenciais ou scripts locais de análise de dados.
+Estruturei este projeto a partir de um **único computador de estudos com recursos de hardware limitados, rodando uma distribuição Linux rodando de uma pendrive como minha estação de trabalho**, para utilizar a base de dados da nuvem Azure, suportando meus pequenos projetos, automações residenciais ou scripts locais de análise de dados.
 O conteúdo que apresento aqui serve como apoio para meus estudos de administração de infraestrutura em nuvem.
 
 ## Objetivos de Aprendizagem
